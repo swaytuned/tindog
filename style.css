@@ -19,7 +19,9 @@ button{
     height: 91.87px;
     border-radius: 50%;
     border: 0 ;
+    cursor: pointer;
 }
+
 #home{
     width: 84px;
     height: 42px;
