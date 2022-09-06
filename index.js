@@ -37,7 +37,7 @@ function getNewDog(){
 function liked(){
     document.getElementById("profile").innerHTML += `
         <div class="result-icon">
-            <img src="../images/badge-like.png"></img>
+            <img src="./images/badge-like.png"></img>
         </div>
         ` 
 
@@ -53,7 +53,7 @@ function liked(){
 function swipe() {
     document.getElementById("profile").innerHTML +=  `
         <div class="result-icon">
-            <img src="../images/badge-nope.png"></img>
+            <img src="./images/badge-nope.png"></img>
          </div>
         `
 
