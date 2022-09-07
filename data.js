@@ -29,7 +29,7 @@ const dogs = [
         name: "Ollie",
         avatar: "./images/dog-ollie.jpg",
         age: 20,
-        bio: "Likes to give massages",
+        bio: "Likes to give massages and take short walks",
         hasBeenSwiped: false,
         hasBeenLiked: false
     }
