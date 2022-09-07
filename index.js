@@ -66,9 +66,6 @@ function swipe() {
 }
 
 function home(){
-    // Document.getElementById("profile").innerHTML = `
-    
-    // `
     currentDogIndex = 0
     currentDog = new Dogs(dogsData[currentDogIndex])  
             render()

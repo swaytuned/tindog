@@ -1,12 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 550px;
+    width: 550px;
     height: 973px;
     background-color: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
     margin: 0 auto;
+    /* border: 1px solid #F83375; */
 }
 
 /* top buttons */
+
 header{
     display: flex;
     flex-direction: row;
@@ -18,8 +21,12 @@ button{
     width: 91.87px;
     height: 91.87px;
     border-radius: 50%;
-    border: 0 ;
+    border: 0;
+    box-shadow: 0px 10px 20px #E9E9EA;
     cursor: pointer;
+    background: linear-gradient(180deg, #FFFFFF 33.29%, #F7F8FC 100%);
+    margin: 0;
+    padding: 0;
 }
 
 #home{
@@ -34,7 +41,9 @@ button{
     margin-bottom: 1.25em;
     margin-top: 1em;
 }
+
 /* Main */
+
 #profile{
     width: 100%;
 }
@@ -45,10 +54,12 @@ button{
 
 img{
     max-width: 100%;
+    border-radius: 15px;
 }
 
 .container{
-    max-width: 100%;
+    max-width: 550px;
+    /* border: 1px solid #F83375; */
 }
 .result-icon{
     position: absolute;
@@ -59,43 +70,81 @@ img{
 
     transform: rotate(-30deg);
 }
+.no-more{
+    width: 550px;
+    height: 750px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+}
+
 
 
 /* Action */
+
 .actions{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    cursor: pointer;
 
 }
+#swipe{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    margin: 0 12px;
+    
+}
+#swipe:hover{
+    background: #ffe7ef;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#heart{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    margin: 0 12px;
+    
+}
+#heart:hover{
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #DBFFF4;
+}
+
 
 /* Typography */
 
 h4{
-    position: absolute;
-    width: 158.78px;
-    height: 36.41px;
-    left: 248.34px;
-    top: 599.36px;
-
-    /* font-family: 'Poppins'; */
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 36px;
+    padding-bottom: 0px;
+    padding: 0;
+    margin: 0 auto;
 
-text-align: center;
+    position: absolute;
+width: 158.78px;
+height: 36.41px;
+left: 260.34px;
+top: 659.36px;
+line-height: 112%;
+
+text-align:start;
 
 color: #F8F8F8;
-
-
 }
-/* .dog-bio{
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0;
+
+.dog-bio{
+    color: #b7b7b7;
+    font-weight: 400;
+    font-size: 24px;
+    margin:0 auto;
+    padding-bottom: 0;
     position: absolute;
-    width: 534px;
-    height: 751.44px;
-    left: 260px;
-    top: 675px;
-} */
+    text-align: start;
+width: 476px;
+height: 32px;
+left: 260px;
+top: 703px;
+line-height: 133%;
+}
