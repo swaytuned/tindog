@@ -8,7 +8,8 @@ const dogs = [
         bio: "Art. Literature. Natural wine. Yoga.",
         hasBeenSwiped: false,
         hasBeenLiked: false
-    },{
+    },
+    {
         name: "Bella",
         avatar: "./images/dog-bella.jpg",
         age: 43,
@@ -21,6 +22,14 @@ const dogs = [
         avatar: "./images/dog-teddy.jpg",
         age: 30,
         bio: "How you doin?",
+        hasBeenSwiped: false,
+        hasBeenLiked: false
+    },
+    {
+        name: "Ollie",
+        avatar: "./images/dog-ollie.jpg",
+        age: 20,
+        bio: "Likes to give massages",
         hasBeenSwiped: false,
         hasBeenLiked: false
     }
